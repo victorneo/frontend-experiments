@@ -1,0 +1,12 @@
+#app {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+div.content {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  gap: 20px;
+}

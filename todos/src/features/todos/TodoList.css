@@ -1,0 +1,24 @@
+ul.todo-list {
+    list-style: none;
+    padding-left: 0;
+}
+
+li.checkable {
+    border: 1px solid #bbb;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    font-size: 1.2em;
+}
+
+span.completed {
+    text-decoration: line-through;
+    color: #ccc;
+}
+
+li.checkable:hover {
+    border: 1px solid #333;
+    cursor: pointer;
+}
